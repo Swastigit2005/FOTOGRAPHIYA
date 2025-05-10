@@ -66,11 +66,9 @@ def check_eyes_open_and_smile(image):
     return eyes_score, smile_score, gaze_score
 
 def estimate_depth_placeholder(image):
-    # TODO: Replace with real monocular depth estimator (MiDaS)
     return 0.5  # dummy normalized value
 
 def compute_aesthetic_placeholder(image):
-    # TODO: Replace with pretrained NIMA or aesthetic model
     return 0.5  # dummy normalized value
 
 input_folder = 'wedding_photos'
